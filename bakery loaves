@@ -1,0 +1,8 @@
+fresh_bread=float(input("enter the number of fresh leaves: "))
+old_bread=float(input("enter the number of day old leaves: "))
+amt_of_fresh_bread=fresh_bread*185.00
+amt_of_old_bread=old_bread*185*.6
+print("regular_price=185.00")
+print("amount of fresh_bread leaves: ",amt_of_fresh_bread)
+print("amount of old_bread leaves: ",amt_of_old_bread)
+print("Total Amount to be paid: ",amt_of_fresh_bread+amt_of_old_bread)
