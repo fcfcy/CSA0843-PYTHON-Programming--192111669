@@ -1,0 +1,6 @@
+A=str(input("entar the name:"))
+B=str(input("Re-enter the name:"))
+if(A==B):
+    print("name is valid")
+else:
+    print("name is invalid")
