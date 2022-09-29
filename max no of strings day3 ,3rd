@@ -1,0 +1,11 @@
+x=input("enter the length of string:")
+y=[]
+e=[]
+for i in range(0,x):
+    c=input("enter the string")
+    y.append(c)
+for i in range(0,x):
+    d=len(a[i].split())
+    e.append(d)
+print("LIST =",y)
+print("MAX words in a string =",max(e))
