@@ -1,0 +1,13 @@
+try:
+    a=int(input("enter the total users:"))
+    b=int(input("enter the staff users:"))
+except:
+   ValueError
+   print("enter proper input!")
+else:
+   if(a<=0 or b<=0):
+      print("invalid")
+   c=b/3
+   d=b+c
+   e=a-d
+print("student users:",e)
