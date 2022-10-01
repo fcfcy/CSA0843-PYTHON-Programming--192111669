@@ -1,0 +1,5 @@
+import collections
+my_list = [9,10,8,3,4,5,9,8]
+print("Original List : ",my_list)
+ctr = collections.Counter(my_list)
+print("Frequency of the elements in the List : ",ctr)
