@@ -1,0 +1,15 @@
+A=int(input("enter the first input: "))
+B=int(input("enter the second input: "))
+choice=int(input("enter the choice: "))
+if(choice==1):
+  result=A+B
+  print("The addition",result)
+elif(choice==2):
+    result=A-B
+    print("The subraction",result)
+elif(choice==3):
+    result=A*B
+    print("The multiplication",result)
+elif(choice==4):
+    result=A%B
+    print("The division",result)
